@@ -1,0 +1,33 @@
+Projects
+
+1. WA Gateway
+   - Description: A free, public API for adding WhatsApp OTP verification to any website or app. Provides a simple REST API for sending and verifying WhatsApp OTPs.
+   - Tech Stack: Next.js, NestJS, TypeScript, PostgreSQL, Redis
+   - Live Site: https://wa.ars2k03.tech
+   - API Docs: https://wa.ars2k03.tech/docs
+   - Source Code: https://github.com/ars2k03/wa
+   - Role: Full-stack developer (built and maintained)
+
+2. Chakri AI
+   - Description: AI-powered hiring platform for the Bangladesh job market (public beta). Helps candidates find jobs with AI matching, CV builder, interview practice, and auto-pilot features. Also helps employers with AI candidate shortlisting.
+   - Tech Stack: Next.js, NestJS, TypeScript, PostgreSQL, Redis
+   - Live Site: https://chakriai.com
+   - Role: Founding Full-Stack Engineer
+
+3. JoldiMart
+   - Description: Quick-commerce startup delivering groceries (fresh fruits, vegetables, daily essentials) in Dhaka within 10-15 minutes. Features WhatsApp login, fast delivery from dark stores, cash on delivery, and bKash payment.
+   - Tech Stack: Next.js, NestJS, TypeScript, PostgreSQL, Redis
+   - Live Site: https://joldimart.com
+   - Role: Founding Full-Stack Engineer
+
+4. ars-facebook-auth
+   - Description: Lightweight npm package for Facebook access token verification in Node.js and TypeScript. Validates tokens, confirms they belong to your app, and returns a normalized user profile (id, name, email, picture) with zero runtime dependencies.
+   - Tech Stack: TypeScript, Node.js
+   - npm: https://www.npmjs.com/package/ars-facebook-auth
+   - Source Code: https://github.com/ars2k03/ars-facebook-auth
+   - Role: Creator and maintainer
+
+Other Notable Work:
+- Personal portfolio: https://ars2k03.tech
+- GitHub: https://github.com/ars2k03
+- Additional packages and templates available on GitHub (e.g., NestJS starter templates, deployment tools)

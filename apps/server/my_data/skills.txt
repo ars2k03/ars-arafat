@@ -1,0 +1,48 @@
+Skills
+
+Core Languages:
+- TypeScript
+- JavaScript
+- Dart
+- SQL
+- Java
+- C
+- C++
+
+Backend:
+- NestJS
+- Node.js
+- Express.js
+
+Frontend & Mobile:
+- Next.js
+- React
+- Flutter
+
+Databases & In-Memory Stores:
+- PostgreSQL
+- MongoDB
+- Redis
+
+Data Modeling & ORM:
+- Prisma ORM
+
+DevOps & CI/CD:
+- Docker
+- GitHub Actions
+
+Cloud & Platforms:
+- Cloudflare
+- Supabase
+
+Tools & Environment:
+- Git
+- Linux
+
+Additional Expertise:
+- Full-stack web application development
+- REST API design and development
+- Authentication systems (including Facebook OAuth and WhatsApp OTP)
+- AI-powered features integration
+- Quick-commerce and real-time systems
+- Open-source package development (npm)

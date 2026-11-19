@@ -1,0 +1,52 @@
+Name: Md Arafat Rahman Sohan (A R S)
+
+Address: Dingadoba, City Bypass, Rajshahi, Bangladesh
+
+Current Status:
+- Student at RUET (Rajshahi University of Engineering & Technology), Department of CSE
+- Full Stack Software Engineer
+
+Skills:
+
+Core Languages:
+- TypeScript
+- JavaScript
+- Dart
+- SQL
+- Java
+- C
+- C++
+
+Backend:
+- NestJS
+- Node.js
+- Express.js
+
+Frontend & Mobile:
+- Next.js
+- React
+- Flutter
+
+Databases & In-Memory Stores:
+- PostgreSQL
+- MongoDB
+- Redis
+
+Data Modeling & ORM:
+- Prisma ORM
+
+DevOps & CI/CD:
+- Docker
+- GitHub Actions
+
+Cloud & Platforms:
+- Cloudflare
+- Supabase
+
+Tools & Environment:
+- Git
+- Linux
+
+I am a Full Stack Software Engineer focused on web and mobile application development. 
+
+I am currently pursuing my studies in the CSE department at RUET while working professionally as a developer.

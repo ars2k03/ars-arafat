@@ -1,0 +1,21 @@
+Goals
+
+Short-term Goals:
+- Complete my CSE degree at RUET successfully.
+- Master advanced full-stack development with Next.js, NestJS, and modern tools.
+- Build and launch production-ready applications (including grocery delivery and AI hiring platforms).
+- Learn and implement RAG (Retrieval-Augmented Generation) systems effectively.
+- Improve skills in AI integration, DevOps (Docker, CI/CD), and cloud platforms.
+
+Long-term Goals:
+- Become a highly skilled Full Stack Software Engineer capable of building scalable products from scratch.
+- Contribute to impactful projects in quick-commerce, AI-powered platforms, and personal productivity tools.
+- Build and grow my own products or startups.
+- Continuously learn emerging technologies, especially in AI and web development.
+- Create high-quality open-source or personal projects that showcase strong engineering skills.
+
+Current Focus Areas:
+- Full-stack web and mobile development
+- AI and RAG systems
+- Building real-world products (JoldiMart, Chakri AI, and personal projects)
+- Strengthening backend, database design, and deployment skills

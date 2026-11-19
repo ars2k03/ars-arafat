@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbf8f1;
+  --foreground: #1a1a1a;
+  --accent: #7a2020;
+  --muted: #4a4336;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --font-serif: "Georgia", "Times New Roman", "Baskerville", "Garamond", serif;
+  --font-display: var(--font-playfair);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: "Georgia", "Times New Roman", "Cambria", "Times", serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

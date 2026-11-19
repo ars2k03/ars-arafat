@@ -1,0 +1,23 @@
+Current Education:
+- Institution: Rajshahi University of Engineering & Technology (RUET)
+- Department: Computer Science and Engineering (CSE)
+- Year: 3rd Year
+- Admission Year: 2024
+
+Higher Secondary Certificate (HSC):
+- Institution: Shah Mokhdum College, Rajshahi
+- Group: Science
+- Passing Year: 2023
+- Result: GPA 5.00
+
+Secondary School Certificate (SSC):
+- Institution: Masjid Mission Academy, Rajshahi
+- Passing Year: 2021
+- Result: GPA 5.00
+
+Certifications:
+- Course: Generative AI for All
+- Provider: Physics Wallah (PW Skills) in collaboration with Microsoft
+- Issue Date: 30th December 2025
+- Certificate No: 0eba9c68-8fe4-44ef-9037-2e1e9bb47de5
+- Certificate Link: https://pwskills.com/learn/certificate/0eba9c68-8fe4-44ef-9037-2e1e9bb47de5/

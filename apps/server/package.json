@@ -1,0 +1,11 @@
+{
+  "name": "@ars/server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A R S Assistant FastAPI RAG backend",
+  "scripts": {
+    "dev": "sh -c 'if [ -x ./venv/bin/uvicorn ]; then ./venv/bin/uvicorn main:app --reload --port 8000; else python3 -m uvicorn main:app --reload --port 8000; fi'",
+    "start": "sh -c 'if [ -x ./venv/bin/uvicorn ]; then ./venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000; else python3 -m uvicorn main:app --host 0.0.0.0 --port 8000; fi'",
+    "ingest": "sh -c 'if [ -x ./venv/bin/python ]; then ./venv/bin/python ingest.py; else python3 ingest.py; fi'"
+  }
+}

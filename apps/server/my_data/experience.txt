@@ -1,0 +1,20 @@
+Work Experience
+
+1. JoldiMart
+   - Position: Founding Full-Stack Engineer
+   - Duration: Since September 2026
+   - Type: Remote
+   - Description: Quick-commerce startup delivering groceries in Dhaka within 10 minutes. Responsible for building and developing the full-stack application for fast grocery delivery.
+   - Website: https://joldimart.com/
+
+2. Chakri AI
+   - Position: Founding Full-Stack Engineer
+   - Duration: Since June 2026
+   - Type: Remote
+   - Description: AI-powered hiring platform for the Bangladesh job market, currently in public beta. Working on the full-stack development of the AI-driven recruitment and hiring system.
+   - Website: https://chakriai.com/
+
+Additional Notes:
+- Both roles involve full-stack development (frontend, backend, database, and deployment).
+- Focus areas include building scalable web applications, integrating AI features (especially in Chakri AI), and handling real-time systems for quick delivery (JoldiMart).
+- Portfolio: https://ars2k03.tech/#experience

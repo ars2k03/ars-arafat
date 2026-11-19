@@ -1,7 +1,12 @@
 Projects
 
 1. WA Gateway
-   - Description: A free, public API for adding WhatsApp OTP verification to any website or app. Provides a simple REST API for sending and verifying WhatsApp OTPs.
+   - Tagline: WhatsApp OTP API
+   - Duration: October 2026 – November 2026
+   - Description: Self-hosted WhatsApp OTP gateway: link your number, create an API key and send verification codes with one HTTP request.
+   - Features:
+     - Developers can send WhatsApp OTPs via API after QR pairing, with auto-reconnect and Redis-backed sessions
+     - Dashboard for API keys, custom OTP templates, live playground, message logs and daily/monthly usage limits
    - Tech Stack: Next.js, NestJS, TypeScript, PostgreSQL, Redis
    - Live Site: https://wa.ars2k03.tech
    - API Docs: https://wa.ars2k03.tech/docs
@@ -9,16 +14,26 @@ Projects
    - Role: Full-stack developer (built and maintained)
 
 2. Chakri AI
-   - Description: AI-powered hiring platform for the Bangladesh job market (public beta). Helps candidates find jobs with AI matching, CV builder, interview practice, and auto-pilot features. Also helps employers with AI candidate shortlisting.
+   - Tagline: AI Hiring Platform
+   - Duration: May 2026 – September 2026
+   - Description: AI-powered recruitment platform for Bangladesh that connects job seekers and recruiters with matching, voice interviews and career tools.
+   - Features:
+     - Job seekers get AI match scores, CV builder and scored AI voice interviews with live captions and proctoring
+     - Recruiters get AI candidate ranking, Auto-Pilot hiring, real-time messaging and bKash/SSLCommerz payments
    - Tech Stack: Next.js, NestJS, TypeScript, PostgreSQL, Redis
    - Live Site: https://chakriai.com
-   - Role: Founding Full-Stack Engineer
+   - Role: Full-stack developer (built end to end)
 
 3. JoldiMart
-   - Description: Quick-commerce startup delivering groceries (fresh fruits, vegetables, daily essentials) in Dhaka within 10-15 minutes. Features WhatsApp login, fast delivery from dark stores, cash on delivery, and bKash payment.
+   - Tagline: Quick-Commerce Platform
+   - Duration: August 2026 – October 2026
+   - Description: Hyper-local grocery delivery platform for Dhaka that lets users order everyday essentials for fast home delivery.
+   - Features:
+     - Customers browse catalog, login with WhatsApp OTP and checkout with Cash on Delivery or bKash
+     - Live order tracking with SSE updates, 15-minute delivery countdown and floating active-order tracker
    - Tech Stack: Next.js, NestJS, TypeScript, PostgreSQL, Redis
    - Live Site: https://joldimart.com
-   - Role: Founding Full-Stack Engineer
+   - Role: Full-stack developer (built end to end)
 
 4. ars-facebook-auth
    - Description: Lightweight npm package for Facebook access token verification in Node.js and TypeScript. Validates tokens, confirms they belong to your app, and returns a normalized user profile (id, name, email, picture) with zero runtime dependencies.
@@ -30,4 +45,5 @@ Projects
 Other Notable Work:
 - Personal portfolio: https://ars2k03.tech
 - GitHub: https://github.com/ars2k03
+- Resume: https://drive.google.com/file/d/1h9kx_GawCQ6E1RbqolRmID0NHv0iX3ML/view?usp=sharing
 - Additional packages and templates available on GitHub (e.g., NestJS starter templates, deployment tools)

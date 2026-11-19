@@ -83,7 +83,7 @@ export function FloatingAssistant() {
               Got a question? Ask A R S Assistant.
             </p>
             <p className="mt-1 text-xs leading-snug text-[#4a4336]">
-              Experience, projects, skills — tap to chat.
+              Projects, skills, background — tap to chat.
             </p>
             <button
               type="button"

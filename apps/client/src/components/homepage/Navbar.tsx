@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { displayFont } from "@/utils/fonts";
 import { NAV_ITEMS } from "@/utils/nav";
+import { site } from "@/utils/site";
 
 function ArrowIcon() {
   return (
@@ -113,7 +114,7 @@ export default function Navbar() {
 
         <div className="hidden md:flex justify-end">
           <a
-            href="/resume.pdf"
+            href={site.resumeUrl}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 h-11 px-5 rounded bg-[#1a1a1a] text-[#fbf8f1] text-base font-semibold transition-colors hover:bg-[#7a2020]"
@@ -168,7 +169,7 @@ export default function Navbar() {
 
             <div className="px-4 py-3 border-t border-[#1a1a1a]/10">
               <a
-                href="/resume.pdf"
+                href={site.resumeUrl}
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center gap-2 h-12 rounded bg-[#1a1a1a] text-[#fbf8f1] text-base font-semibold transition-colors hover:bg-[#7a2020]"

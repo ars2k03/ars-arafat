@@ -32,11 +32,6 @@ yarn-error.log*
 
 .vercel
 
-apps/client/resume/*.aux
-apps/client/resume/*.log
-apps/client/resume/*.out
-apps/client/resume/*.pdf
-
 *.tsbuildinfo
 next-env.d.ts
 

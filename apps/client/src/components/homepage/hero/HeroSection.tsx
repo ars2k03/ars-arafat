@@ -44,7 +44,7 @@ export default function HeroSection() {
           </p>
 
           <p className="mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-[#2e2a22]">
-            Engineering scalable systems, building seamless digital experiences, and turning complex ideas into production-ready software.
+            Passionate about building software and learning DevOps and system design. Seeking an internship or remote role to contribute to real products and grow as an engineer.
           </p>
 
           <p className="mt-3 text-sm sm:text-base font-medium text-[#4a4336]">

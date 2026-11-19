@@ -44,7 +44,7 @@ export function ChatMessages({
                   compact ? "text-sm" : "text-base"
                 }`}
               >
-                Ask about experience, projects, skills, or background.
+                Ask about projects, skills, or background.
               </p>
             </div>
           </div>

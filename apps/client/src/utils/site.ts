@@ -15,7 +15,7 @@ export const site = {
     "ARS Arafat",
     "ars2k03",
   ],
-  role: "Full-Stack Software Engineer",
+  role: "Junior Full Stack Software Engineer",
   url: "https://ars2k03.tech",
   location: "Rajshahi, Bangladesh",
   address: {
@@ -25,7 +25,9 @@ export const site = {
   },
   email: "arafatsohan2003@gmail.com",
   description:
-    "Md Arafat Rahman Sohan, known as ARS (ars2k03), is a full-stack software engineer from Rajshahi, Bangladesh. He is a founding engineer at Chakri AI and JoldiMart and studies BSc in Computer Science & Engineering at RUET. He builds production web and mobile applications with TypeScript, Next.js, NestJS and PostgreSQL.",
+    "Md Arafat Rahman Sohan, known as ARS (ars2k03), is a Junior Full Stack Software Engineer from Rajshahi, Bangladesh. He studies BSc in Computer Science & Engineering at RUET and builds web platforms with TypeScript, Next.js, NestJS and PostgreSQL — including WA Gateway, Chakri AI and JoldiMart.",
+  resumeUrl:
+    "https://drive.google.com/file/d/1h9kx_GawCQ6E1RbqolRmID0NHv0iX3ML/view?usp=sharing",
   github: { handle: "ars2k03", url: "https://github.com/ars2k03" },
   linkedin: { handle: "ars2k05", url: "https://www.linkedin.com/in/ars2k05" },
   x: { handle: "ars_2k03", url: "https://x.com/ars_2k03" },
@@ -47,7 +49,7 @@ export const siteKeywords = [
   "Arafat Rahman RUET",
   "Arafat Rahman Chakri AI",
   "Arafat Rahman JoldiMart",
-  "Full-Stack Software Engineer Bangladesh",
-  "Full-Stack Software Engineer Rajshahi",
+  "Junior Full Stack Software Engineer Bangladesh",
+  "Junior Full Stack Software Engineer Rajshahi",
   "TypeScript Next.js NestJS developer Bangladesh",
 ];

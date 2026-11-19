@@ -1,48 +1,53 @@
 Skills
 
-Core Languages:
+Programming Languages:
 - TypeScript
 - JavaScript
-- Dart
 - SQL
-- Java
-- C
-- C++
+- Dart
 
-Backend:
-- NestJS
+Backend Development:
 - Node.js
+- NestJS
 - Express.js
+- REST APIs
+- WebSockets (Socket.IO)
 
-Frontend & Mobile:
-- Next.js
+Frontend & Mobile Development:
 - React
+- Next.js
 - Flutter
 
-Databases & In-Memory Stores:
+Databases & ORM:
 - PostgreSQL
 - MongoDB
 - Redis
-
-Data Modeling & ORM:
 - Prisma ORM
 
-DevOps & CI/CD:
-- Docker
-- GitHub Actions
-
-Cloud & Platforms:
-- Cloudflare
+Cloud & Infrastructure:
 - Supabase
+- Cloudflare
+- Docker
 
-Tools & Environment:
-- Git
-- Linux
+AI & LLM:
+- LLM Integration
+- AI Agents
+- Retrieval-Augmented Generation (RAG)
+- Speech-to-Text (STT)
+- Text-to-Speech (TTS)
+
+Development Tools & CI/CD:
+- GitHub Actions
+- Postman
+
+Soft Skills:
+- Communication
+- Time Management
 
 Additional Expertise:
 - Full-stack web application development
 - REST API design and development
-- Authentication systems (including Facebook OAuth and WhatsApp OTP)
+- Authentication systems (including WhatsApp OTP)
 - AI-powered features integration
-- Quick-commerce and real-time systems
+- Real-time systems (SSE, WebSockets)
 - Open-source package development (npm)

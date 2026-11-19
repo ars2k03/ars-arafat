@@ -54,7 +54,7 @@ INTENTS: list[dict] = [
             "Md Arafat Rahman Sohan portfolio GitHub ars2k03.tech",
         ],
         "boost": ("ars2k03.tech", "portfolio", "github.com/ars2k03"),
-        "prefer_sources": ("projects.txt", "experience.txt"),
+        "prefer_sources": ("projects.txt", "about_me.txt", "resume.pdf"),
     },
     {
         "name": "contact",
@@ -93,11 +93,11 @@ INTENTS: list[dict] = [
             re.I,
         ),
         "queries": [
-            "A R S skills TypeScript NestJS Next.js PostgreSQL Flutter",
-            "Md Arafat Rahman Sohan technical skills tech stack",
+            "A R S skills TypeScript NestJS Next.js PostgreSQL Flutter RAG",
+            "Md Arafat Rahman Sohan technical skills tech stack Postman",
         ],
-        "boost": ("typescript", "nestjs", "next.js", "postgresql", "skills"),
-        "prefer_sources": ("skills.txt", "about_me.txt"),
+        "boost": ("typescript", "nestjs", "next.js", "postgresql", "skills", "rag"),
+        "prefer_sources": ("skills.txt", "about_me.txt", "resume.pdf"),
     },
     {
         "name": "experience",
@@ -107,11 +107,11 @@ INTENTS: list[dict] = [
             re.I,
         ),
         "queries": [
-            "A R S work experience JoldiMart Chakri AI Founding Full-Stack Engineer",
-            "Md Arafat Rahman Sohan professional experience roles",
+            "A R S professional experience projects WA Gateway Chakri AI JoldiMart internship",
+            "Md Arafat Rahman Sohan Junior Full Stack Software Engineer seeking internship remote",
         ],
-        "boost": ("experience", "joldimart", "chakri", "engineer", "position"),
-        "prefer_sources": ("experience.txt", "resume.pdf"),
+        "boost": ("experience", "internship", "project", "joldimart", "chakri", "wa gateway"),
+        "prefer_sources": ("experience.txt", "projects.txt", "resume.pdf"),
     },
     {
         "name": "projects",
@@ -124,8 +124,8 @@ INTENTS: list[dict] = [
             "A R S projects WA Gateway Chakri AI JoldiMart ars-facebook-auth",
             "Md Arafat Rahman Sohan notable projects live sites",
         ],
-        "boost": ("projects", "wa gateway", "chakri", "joldimart", "npm", "live site"),
-        "prefer_sources": ("projects.txt",),
+        "boost": ("projects", "wa gateway", "chakri", "joldimart", "npm", "live site", "rag"),
+        "prefer_sources": ("projects.txt", "resume.pdf"),
     },
     {
         "name": "github",

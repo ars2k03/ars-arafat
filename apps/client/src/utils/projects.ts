@@ -14,24 +14,28 @@ const tech = {
 export const projects: Project[] = [
   {
     title: "WA Gateway",
-    description: "A free, public API for adding WhatsApp OTP verification to any website or app.",
+    description:
+      "Self-hosted WhatsApp OTP gateway: link your number, create an API key and send verification codes with one HTTP request. Developers can send OTPs via API after QR pairing, with auto-reconnect and Redis-backed sessions, plus a dashboard for API keys, custom templates, playground, logs and usage limits.",
     image: "/projects/wa-gateway.png",
     stack: [tech.nextjs, tech.nestjs, tech.typescript, tech.postgresql, tech.redis],
     links: [
       { label: "Live site", href: "https://wa.ars2k03.tech" },
+      { label: "GitHub", href: "https://github.com/ars2k03/wa" },
       { label: "API docs", href: "https://wa.ars2k03.tech/docs" },
     ],
   },
   {
     title: "Chakri AI",
-    description: "AI-powered hiring platform for the Bangladesh job market, in public beta.",
+    description:
+      "AI-powered recruitment platform for Bangladesh that connects job seekers and recruiters with matching, voice interviews and career tools. Job seekers get AI match scores, CV builder and scored AI voice interviews; recruiters get AI ranking, Auto-Pilot hiring, messaging and bKash/SSLCommerz payments.",
     image: "/projects/chakri-ai-home.png",
     stack: [tech.nextjs, tech.nestjs, tech.typescript, tech.postgresql, tech.redis],
     links: [{ label: "Live site", href: "https://chakriai.com" }],
   },
   {
     title: "JoldiMart",
-    description: "Quick-commerce startup delivering groceries in Dhaka within 10 minutes.",
+    description:
+      "Hyper-local grocery delivery platform for Dhaka. Customers browse catalog, login with WhatsApp OTP and checkout with Cash on Delivery or bKash, then track orders live with SSE updates and a 15-minute delivery countdown.",
     image: "/projects/joldimart-home.png",
     stack: [tech.nextjs, tech.nestjs, tech.typescript, tech.postgresql, tech.redis],
     links: [{ label: "Live site", href: "https://joldimart.com" }],

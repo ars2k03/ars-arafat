@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
 export const alt =
-  "Md Arafat Rahman Sohan (ARS / ars2k03) — Full-Stack Software Engineer";
+  "Md Arafat Rahman Sohan (ARS / ars2k03) — Junior Full Stack Software Engineer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -71,13 +71,13 @@ export default async function Image() {
                 paddingTop: 18,
               }}
             >
-              Full-Stack Software Engineer
+              Junior Full Stack Software Engineer
             </div>
             <div style={{ fontSize: 24, color: "#4a4336", marginTop: 8 }}>
               Rajshahi, Bangladesh • RUET CSE
             </div>
             <div style={{ fontSize: 23, color: "#4a4336", marginTop: 4 }}>
-              Founding Engineer — Chakri AI &amp; JoldiMart
+              WA Gateway • Chakri AI • JoldiMart
             </div>
             <div
               style={{

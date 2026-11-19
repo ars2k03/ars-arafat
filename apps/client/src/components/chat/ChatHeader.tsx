@@ -31,7 +31,7 @@ export function ChatHeader({ compact = false, onClose }: ChatHeaderProps) {
             )}
             {compact && (
               <p className="truncate text-xs text-[#4a4336]">
-                Ask about experience, projects & skills
+                Ask about projects, skills & background
               </p>
             )}
           </div>

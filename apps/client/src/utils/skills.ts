@@ -2,63 +2,62 @@ import type { TechCategory } from "@/types/skills";
 
 export const skillCategories: TechCategory[] = [
   {
-    title: "Core Languages",
+    title: "Programming Languages",
     items: [
       { name: "TypeScript", logo: "/skills/typescript.svg" },
       { name: "JavaScript", logo: "/skills/javascript.svg" },
-      { name: "Dart", logo: "/skills/dart.svg" },
       { name: "SQL", logo: "/skills/sql.svg" },
+      { name: "Dart", logo: "/skills/dart.svg" },
     ],
   },
   {
-    title: "Backend Engines",
+    title: "Backend Development",
     items: [
-      { name: "NestJS", logo: "/skills/nestjs.svg" },
       { name: "Node.js", logo: "/skills/nodejs.svg" },
-      { name: "Express.js", logo: "/skills/express.svg" }
+      { name: "NestJS", logo: "/skills/nestjs.svg" },
+      { name: "Express.js", logo: "/skills/express.svg" },
     ],
   },
   {
     title: "Frontend & Mobile",
     items: [
-      { name: "Next.js", logo: "/skills/nextjs.svg" },
       { name: "React", logo: "/skills/react.svg" },
+      { name: "Next.js", logo: "/skills/nextjs.svg" },
       { name: "Flutter", logo: "/skills/flutter.svg" },
     ],
   },
   {
-    title: "Databases & In-Memory Stores",
+    title: "Databases & ORM",
     items: [
       { name: "PostgreSQL", logo: "/skills/postgresql.svg" },
       { name: "MongoDB", logo: "/skills/mongodb.svg" },
       { name: "Redis", logo: "/skills/redis.svg" },
-    ],
-  },
-  {
-    title: "Data Modeling & ORM",
-    items: [
       { name: "Prisma ORM", logo: "/skills/prisma.svg" },
     ],
   },
   {
-    title: "DevOps & CI/CD",
+    title: "Cloud & Infrastructure",
     items: [
-      { name: "Docker", logo: "/skills/docker.svg" },
-      { name: "GitHub Actions", logo: "/skills/githubactions.svg" },
-    ],
-  },
-  {
-    title: "Cloud & Platforms",
-    items: [
-      { name: "Cloudflare", logo: "/skills/cloudflare.svg" },
       { name: "Supabase", logo: "/skills/supabase.svg" },
+      { name: "Cloudflare", logo: "/skills/cloudflare.svg" },
+      { name: "Docker", logo: "/skills/docker.svg" },
     ],
   },
   {
-    title: "Tools & Environment",
+    title: "AI & LLM",
     items: [
-      { name: "Git", logo: "/skills/git.svg" },
-      { name: "Linux", logo: "/skills/linux.svg" },
+      { name: "LLM Integration", logo: "/skills/rag.svg" },
+      { name: "AI Agents", logo: "/skills/rag.svg" },
+      { name: "RAG", logo: "/skills/rag.svg" },
+      { name: "Speech-to-Text", logo: "/skills/rag.svg" },
+      { name: "Text-to-Speech", logo: "/skills/rag.svg" },
+    ],
+  },
+  {
+    title: "Development Tools & CI/CD",
+    items: [
+      { name: "GitHub Actions", logo: "/skills/githubactions.svg" },
+      { name: "Postman", logo: "/skills/postman.svg" },
     ],
   },
 ];

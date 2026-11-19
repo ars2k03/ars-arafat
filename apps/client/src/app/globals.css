@@ -34,3 +34,39 @@ body {
     transform: translateY(0);
   }
 }
+
+@keyframes fabPulse {
+  0%,
+  100% {
+    box-shadow: 0 12px 32px rgba(26, 26, 26, 0.22);
+  }
+  50% {
+    box-shadow:
+      0 12px 32px rgba(26, 26, 26, 0.22),
+      0 0 0 10px rgba(122, 32, 32, 0.08);
+  }
+}
+
+@keyframes notifBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-4px);
+  }
+  70% {
+    transform: translateY(-1px);
+  }
+}
+
+@keyframes notifPop {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

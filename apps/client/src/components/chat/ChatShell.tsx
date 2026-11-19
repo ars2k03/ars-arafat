@@ -37,7 +37,13 @@ function paintFrame() {
   });
 }
 
-export function ChatShell() {
+type ChatShellProps = {
+  variant?: "page" | "widget";
+  onClose?: () => void;
+};
+
+export function ChatShell({ variant = "page", onClose }: ChatShellProps) {
+  const compact = variant === "widget";
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -209,12 +215,17 @@ export function ChatShell() {
   };
 
   return (
-    <div className="flex h-[calc(100dvh-72px)] flex-col bg-[#fbf8f1]">
-      <ChatHeader />
+    <div
+      className={`flex flex-col bg-[#fbf8f1] ${
+        compact ? "h-full" : "h-[calc(100dvh-72px)]"
+      }`}
+    >
+      <ChatHeader compact={compact} onClose={onClose} />
       <ChatMessages
         messages={messages}
         isLoading={isLoading}
         bottomRef={bottomRef}
+        compact={compact}
       />
       <ChatInput
         input={input}
@@ -224,6 +235,8 @@ export function ChatShell() {
         onInputChange={setInput}
         onSubmit={handleSubmit}
         onKeyDown={handleKeyDown}
+        compact={compact}
+        inputId={compact ? "assistant-widget-input" : "chat-input"}
       />
     </div>
   );

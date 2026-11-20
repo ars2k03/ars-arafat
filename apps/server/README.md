@@ -53,6 +53,11 @@ Place documents in `my_data/` (`.txt`, `.pdf`, images), then:
 python ingest.py
 ```
 
+Ingest behavior:
+
+- `.txt` → text chunks → Gemini text embeddings
+- `.pdf` / images → **native multimodal** Gemini Embedding 2 (1 page or 1 image per vector; text/label kept in payload for the LLM)
+
 ### Run API
 
 ```bash

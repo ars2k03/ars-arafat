@@ -9,8 +9,8 @@ python ingest.py
 ## Supported (typical)
 
 - `.txt` — bio, skills, experience, projects, etc.
-- `.pdf` — resume or long-form docs
-- Images — processed via the vision path in `ingest.py`
+- `.pdf` — native Gemini Embedding 2 multimodal (1 page / vector)
+- Images — native Gemini Embedding 2 multimodal (1 image / vector)
 
 ## Privacy
 

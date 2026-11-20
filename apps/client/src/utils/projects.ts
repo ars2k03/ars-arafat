@@ -15,7 +15,11 @@ export const projects: Project[] = [
   {
     title: "WA Gateway",
     description:
-      "Self-hosted WhatsApp OTP gateway: link your number, create an API key and send verification codes with one HTTP request. Developers can send OTPs via API after QR pairing, with auto-reconnect and Redis-backed sessions, plus a dashboard for API keys, custom templates, playground, logs and usage limits.",
+      "WhatsApp OTP is expensive and hard to set up for small teams — WA Gateway gives developers and startups a free, self-hosted API to send verification codes over WhatsApp with one HTTP request.",
+    points: [
+      "Skips costly SMS/Business API vendors: pair your number via QR, create an API key, then send OTPs from your app",
+      "Dashboard with custom templates, playground, message logs and usage limits so developers and small startups can ship auth without per-message bills",
+    ],
     image: "/projects/wa-gateway.png",
     stack: [tech.nextjs, tech.nestjs, tech.typescript, tech.postgresql, tech.redis],
     links: [
@@ -27,7 +31,11 @@ export const projects: Project[] = [
   {
     title: "Chakri AI",
     description:
-      "AI-powered recruitment platform for Bangladesh that connects job seekers and recruiters with matching, voice interviews and career tools. Job seekers get AI match scores, CV builder and scored AI voice interviews; recruiters get AI ranking, Auto-Pilot hiring, messaging and bKash/SSLCommerz payments.",
+      "Manual hiring in Bangladesh is slow and fragmented — Chakri AI matches job seekers and recruiters with AI screening, voice interviews and shortlisting in one place.",
+    points: [
+      "Job seekers get AI match scores with explanations, a CV builder and scored AI voice interviews with live captions and proctoring",
+      "Recruiters get AI candidate ranking, Auto-Pilot hiring workflows and real-time messaging to shortlist faster",
+    ],
     image: "/projects/chakri-ai-home.png",
     stack: [tech.nextjs, tech.nestjs, tech.typescript, tech.postgresql, tech.redis],
     links: [{ label: "Live site", href: "https://chakriai.com" }],
@@ -35,14 +43,23 @@ export const projects: Project[] = [
   {
     title: "JoldiMart",
     description:
-      "Hyper-local grocery delivery platform for Dhaka. Customers browse catalog, login with WhatsApp OTP and checkout with Cash on Delivery or bKash, then track orders live with SSE updates and a 15-minute delivery countdown.",
+      "Everyday grocery runs in Dhaka are slow and inconvenient — JoldiMart delivers essentials to your door in about 15 minutes in Bashundhara R/A.",
+    points: [
+      "Customers browse the catalog, log in with WhatsApp OTP and checkout with Cash on Delivery or bKash",
+      "Live order tracking with SSE updates, a 15-minute delivery countdown and a floating active-order tracker",
+    ],
     image: "/projects/joldimart-home.png",
     stack: [tech.nextjs, tech.nestjs, tech.typescript, tech.postgresql, tech.redis],
     links: [{ label: "Live site", href: "https://joldimart.com" }],
   },
   {
     title: "ars-facebook-auth",
-    description: "Add Facebook login to any Node.js backend in two lines of code.",
+    description:
+      "Facebook OAuth is boilerplate-heavy for Node backends — this npm package lets developers add Facebook login in two lines without wiring the full handshake themselves.",
+    points: [
+      "Install the package, pass your app credentials, and drop Facebook login into any Node.js API",
+      "Handles the OAuth flow end to end so you get a verified Facebook user without custom callback plumbing",
+    ],
     stack: [tech.typescript, tech.nodejs],
     links: [
       { label: "npm", href: "https://www.npmjs.com/package/ars-facebook-auth" },

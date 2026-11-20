@@ -46,10 +46,6 @@ export default function HeroSection() {
           <p className="mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-[#2e2a22]">
             Passionate about building software and learning DevOps and system design. Seeking an internship or remote role to contribute to real products and grow as an engineer.
           </p>
-
-          <p className="mt-3 text-sm sm:text-base font-medium text-[#4a4336]">
-            Md Arafat Rahman Sohan, known as ARS · ars2k03
-          </p>
         </div>
 
         <div>

@@ -11,7 +11,8 @@
 <p align="center">
   <a href="https://ars2k03.tech"><strong>Live site</strong></a> ·
   <a href="https://ars2k03.tech/assistant"><strong>Assistant</strong></a> ·
-  <a href="https://github.com/ars2k03"><strong>GitHub</strong></a>
+  <a href="https://github.com/ars2k03/ars-arafat-portfolio"><img src="assets/github.svg" width="14" height="14" valign="middle" alt="GitHub" /> <strong>GitHub</strong></a> ·
+  <a href="https://gitlab.com/ars2k03/ars-arafat-portfolio"><img src="assets/gitlab.svg" width="14" height="14" valign="middle" alt="GitLab" /> <strong>GitLab</strong></a>
 </p>
 
 ---
@@ -23,7 +24,9 @@ ars/
 ├── apps/
 │   ├── client/    # Next.js portfolio + /assistant UI
 │   └── server/    # FastAPI RAG backend (Qdrant + Groq + Gemini)
+├── assets/        # GitHub & GitLab SVG logos
 ├── packages/      # shared packages (optional)
+├── resume/        # LaTeX source & compiled PDF resume
 ├── pnpm-workspace.yaml
 └── turbo.json
 ```
@@ -33,6 +36,15 @@ ars/
 | **Client** | [`apps/client`](apps/client) | Next.js 16.4.6 · React 19.3.1 · Tailwind 4.3.5 · TypeScript 7 |
 | **Server** | [`apps/server`](apps/server) | FastAPI · LangChain · Qdrant |
 
+## Repositories & Remotes
+
+This repository is mirrored across **GitHub** and **GitLab**.
+
+| Platform | Remote | Repository | Clone URL |
+|----------|--------|------------|-----------|
+| <img src="assets/github.svg" width="16" height="16" valign="middle" alt="GitHub" /> **GitHub** | `origin` | [ars2k03/ars-arafat-portfolio](https://github.com/ars2k03/ars-arafat-portfolio) | `https://github.com/ars2k03/ars-arafat-portfolio.git` |
+| <img src="assets/gitlab.svg" width="16" height="16" valign="middle" alt="GitLab" /> **GitLab** | `gitlab` | [ars2k03/ars-arafat-portfolio](https://gitlab.com/ars2k03/ars-arafat-portfolio) | `git@gitlab.com:ars2k03/ars-arafat-portfolio.git` |
+
 ## Prerequisites
 
 - Node.js 24+ (see `apps/client/.nvmrc`)
@@ -41,6 +53,30 @@ ars/
 - API keys: Resend (contact form), Google AI, Groq, Qdrant (assistant)
 
 ## Setup
+
+**Clone from GitHub:**
+
+```bash
+git clone https://github.com/ars2k03/ars-arafat-portfolio.git
+cd ars-arafat-portfolio
+```
+
+**Or clone from GitLab:**
+
+```bash
+git clone git@gitlab.com:ars2k03/ars-arafat-portfolio.git
+cd ars-arafat-portfolio
+```
+
+**Configure multiple remotes (optional for maintainers):**
+
+```bash
+git remote add gitlab git@gitlab.com:ars2k03/ars-arafat-portfolio.git
+git remote -v
+git push origin main && git push gitlab main
+```
+
+**Install dependencies & configure environment:**
 
 ```bash
 pnpm install
@@ -82,6 +118,10 @@ pnpm dev:server
 | `pnpm build` | Build client |
 | `pnpm lint` | Lint client |
 | `pnpm typecheck` | Typecheck client |
+
+## Author
+
+**Md Arafat Rahman Sohan (A R S)** — [<img src="assets/github.svg" width="14" height="14" valign="middle" alt="GitHub" /> GitHub](https://github.com/ars2k03) · [<img src="assets/gitlab.svg" width="14" height="14" valign="middle" alt="GitLab" /> GitLab](https://gitlab.com/ars2k03)
 
 ## License
 

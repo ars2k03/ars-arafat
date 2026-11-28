@@ -10,52 +10,5 @@ Current Status:
 Career Objective:
 I'm a Junior Full Stack Software Engineer passionate about building software and learning DevOps and system design. I'm seeking an internship or remote role where I can contribute to real products and grow as an engineer. My goal is to become an expert who designs and ships reliable, scalable systems.
 
-Skills:
-
-Programming Languages:
-- TypeScript
-- JavaScript
-- SQL
-- Dart
-
-Backend Development:
-- Node.js
-- NestJS
-- Express.js
-- REST APIs
-- WebSockets (Socket.IO)
-
-Frontend & Mobile Development:
-- React
-- Next.js
-- Flutter
-
-Databases & ORM:
-- PostgreSQL
-- MongoDB
-- Redis
-- Prisma ORM
-
-Cloud & Infrastructure:
-- Supabase
-- Cloudflare
-- Docker
-
-AI & LLM:
-- LLM Integration
-- AI Agents
-- Retrieval-Augmented Generation (RAG)
-- Speech-to-Text (STT)
-- Text-to-Speech (TTS)
-
-Development Tools & CI/CD:
-- GitHub Actions
-- Postman
-
-Soft Skills:
-- Communication
-- Time Management
-
-I am a Junior Full Stack Software Engineer focused on web and mobile application development.
-
-I am currently pursuing my studies in the CSE department at RUET while building production projects such as WA Gateway, Chakri AI and JoldiMart.
+Summary:
+I am a Junior Full Stack Software Engineer focused on web and mobile application development, currently pursuing my studies in the CSE department at RUET while building production projects such as WA Gateway, Chakri AI, and JoldiMart.

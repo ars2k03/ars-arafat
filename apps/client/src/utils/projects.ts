@@ -36,7 +36,7 @@ export const projects: Project[] = [
       "Job seekers get AI match scores with explanations, a CV builder and scored AI voice interviews with live captions and proctoring",
       "Recruiters get AI candidate ranking, Auto-Pilot hiring workflows and real-time messaging to shortlist faster",
     ],
-    image: "/projects/chakri-ai-home.png",
+    image: "/projects/chakri-ai-home.jpg",
     stack: [tech.nextjs, tech.nestjs, tech.typescript, tech.postgresql, tech.redis],
     links: [{ label: "Live site", href: "https://chakriai.com" }],
   },

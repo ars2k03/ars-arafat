@@ -5,6 +5,9 @@ Programming Languages:
 - JavaScript
 - SQL
 - Dart
+- C
+- C++
+- Java
 
 Backend Development:
 - Node.js

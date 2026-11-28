@@ -40,14 +40,16 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
 
       {project.image && (
-        <div className="relative order-first md:order-none aspect-[16/10] md:aspect-auto md:min-h-full md:h-full overflow-hidden bg-[#1a1a1a] border-b-[1.5px] md:border-b-0 md:border-l-[1.5px] border-[#1a1a1a]">
-          <Image
-            src={project.image}
-            alt={`${project.title} homepage`}
-            fill
-            sizes="(min-width: 768px) 50vw, 100vw"
-            className="object-cover object-left-top"
-          />
+        <div className="order-first md:order-none flex items-center justify-center p-3 md:p-5 bg-[#fbf8f1] border-b-[1.5px] md:border-b-0 md:border-l-[1.5px] border-[#1a1a1a]">
+          <div className="relative w-full aspect-[16/10] overflow-hidden border border-[#1a1a1a]/15 bg-white">
+            <Image
+              src={project.image}
+              alt={`${project.title} homepage`}
+              fill
+              sizes="(min-width: 768px) 50vw, 100vw"
+              className="object-contain object-center"
+            />
+          </div>
         </div>
       )}
     </article>

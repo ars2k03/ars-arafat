@@ -8,6 +8,9 @@ export const skillCategories: TechCategory[] = [
       { name: "JavaScript", logo: "/skills/javascript.svg" },
       { name: "SQL", logo: "/skills/sql.svg" },
       { name: "Dart", logo: "/skills/dart.svg" },
+      { name: "C", logo: "/skills/c.svg" },
+      { name: "C++", logo: "/skills/cpp.svg" },
+      { name: "Java", logo: "/skills/java.svg" },
     ],
   },
   {
@@ -16,6 +19,8 @@ export const skillCategories: TechCategory[] = [
       { name: "Node.js", logo: "/skills/nodejs.svg" },
       { name: "NestJS", logo: "/skills/nestjs.svg" },
       { name: "Express.js", logo: "/skills/express.svg" },
+      { name: "REST APIs", logo: "/skills/restapi.svg" },
+      { name: "WebSockets", logo: "/skills/websocket.svg" },
     ],
   },
   {
